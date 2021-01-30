@@ -10,7 +10,7 @@ __[2] S.J. Julier, J.K. Uhlmann, “General decentralized data fusion with covar
 
 ## Notes:
 
-Although the Split CIF is called "filter", its application is not limited to temporal recursive estimation; the Split CIF can be used as a pure data fusion method besides its filtering sense, just as the Kalman filter can also be treated as a data fusion method.
+[2] originally coined it simply as ``split covariance intersection''. In [1], the term ``filter'' is added to form an analogy of the Split CIF to the well-known Kalman filter. Although the Split CIF is called "filter", its application is not limited to temporal recursive estimation; the Split CIF can be used as a pure data fusion method besides its filtering sense, just as the Kalman filter can also be treated as a data fusion method.
 
 For each estimate __X__ in the split form, the "i" covariance part __Pi__ represents the degree of __X__ being independent, whereas the "d" part __Pd__ represents its degree of being potentially correlated with other estimates. 
 
