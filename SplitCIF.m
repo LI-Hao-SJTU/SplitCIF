@@ -36,7 +36,7 @@ function [X, Pi, Pd] = SplitCIF(X1, P1i, P1d, X2, P2i, P2d, H)
         val = det(P);
     end
 
-    % The w-optimization problem is theoretically guaranteed to be convex; 
+    % The w-optimization problem is theoretically guaranteed to be convex; one can refer to "On w-Optimization of the Split Covariance Intersection Filter" (https://arxiv.org/pdf/2101.10159.pdf) for proof. 
     % Therefore, some convex optimization technique which is accurate as well as efficient can be used to solve the w-optimization problem.
     % The golden section technique is adopted to search for the global optimal w under certain error tolerance (i.e. specified by "err_tol" in following code) 
     function w_opt = GetW_GoldenSection(P1i, P1d, P2i, P2d, H)
