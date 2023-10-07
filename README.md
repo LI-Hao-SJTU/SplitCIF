@@ -8,6 +8,12 @@ __[1] H. Li, F. Nashashibi and M. Yang, "Split Covariance Intersection Filter: T
 
 __[2] S.J. Julier, J.K. Uhlmann, “General decentralized data fusion with covariance intersection (CI)”, Chapter 12, D. Hall, J. Llinas (Eds.), Handbook of Data Fusion, CRC Press, Boca Raton FL USA, 2001__
 
+A complementary note that provides convexity analysis of the w-optimization problem is given by
+
+__[3] H. Li, "On w-optimization of the split covariance intersection filter", arXiv__
+
+https://browse.arxiv.org/pdf/2101.10159.pdf
+
 ## Notes:
 
 The Split CIF is coined originally as "split covariance intersection" in [2]. __In [1], the term "filter" is added to form an analogy of the Split CIF to the well-known Kalman filter__. Although the Split CIF is called "filter", its application is not limited to temporal recursive estimation; __the Split CIF can be used as a pure data fusion method besides its filtering sense__, just as the Kalman filter can also be treated as a data fusion method.
